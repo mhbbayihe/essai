@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body{
+  background-color: rgb(249, 250, 251);
+}
+
+
+
+.essai{
+  text-align: right;
+  width: 50%;
+  
+}
+
+.essai2{
+  text-align: left;
+  width: 50%;
+}
+
+.accueil{
+  background-color: white;
+  margin: 10%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 25px rgba(182, 181, 181, 0.5);
+}
+
+.petit{
+  color: red;
+}
+
+.grand{
+  color: blue;
+}
+
+.page{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+}
+
+.droite{
+  text-align: right;
+  width: 70%;
+}
+
+.gauche{
+  text-align: left;
+  width: 30%;
+}
+
+.droite1{
+  text-align: right;
+  width: 50%;
+}
+
+.gauche1{
+  text-align: left;
+  width: 50%;
+}
